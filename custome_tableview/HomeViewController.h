@@ -12,4 +12,6 @@
 @interface HomeViewController : UIViewController
 
 @property (nonatomic) HomeView *homeView;
+- (void)someAction:(id)sender;
+
 @end
